@@ -229,7 +229,7 @@ function App() {
 
         </div>
 
-        <div className="multi-tips w-full z-50 shadow-md border-t-2 border-gray-600 md:h-28 h-20 bg-black overflow-hidden">
+        <div className="multi-tips w-full z-50 shadow-md border-t-2 border-gray-900 md:h-28 h-20 bg-black overflow-hidden">
           <div
             ref={containerRef}
             className="flex h-full items-center whitespace-nowrap"
@@ -248,7 +248,7 @@ function App() {
           </div>
         </div>
         <div className="custom-slider-container relative w-full   bg-black">
-          <div className="w-full bg-green-300 relative">
+          <div className="w-full  relative">
             <div
               ref={sliderRef2}
               className="overflow-hidden lg:h-[85vh] h-[55vh] relative"
